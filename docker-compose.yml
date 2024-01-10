@@ -24,7 +24,7 @@ services:
       # -- CHANGE THIS --
       - APP_PUBLIC_URL=http://localhost:8080
       - TOKEN_SECRET=1234_top_secret
-      - PUPPETEER_HOST=http://rich-puppeteer:3000
+      - PUPPETEER_HOST=http://rich-puppeteer:8090
     networks:
       - puppeteer
 
